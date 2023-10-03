@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Firebase JavaScript SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase/auth"></script>
+ 
+  </head>
+  <body>
+    <header style="background: transparent;">
+      <section class="SidBar">
+        <nav>
+          <div class="logo">
+            <img src="img/Log.png" alt="" />
+          </div>
+          <ul>
+            <li>
+              <a href="Home.html">
+                <i class="fa-solid fa-house"></i> <span>الصفحة الرئيسة </span>
+              </a>
+            </li>
+            <li>
+              <a href="employees.html"
+                ><i class="fa-solid fa-user"></i> <span>الموظفين</span>
+              </a>
+            </li>
+            <li>
+                <a href="almakhzan.html">
+                  <i class="fa-solid fa-store"></i> <span>المخزن </span>
+                </a>
+              </li>
+            <li>
+              <a href="the sales.html">
+                <i class="fa-brands fa-sellcast"></i> <span>المبيعات</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="pharmaceutical.html">
+                <i class="fa-solid fa-capsules"></i> <span>الادوية</span>
+              </a>
+            </li>
+            <li>
+              <a href="Supply.html">
+                <i class="fa-brands fa-supple"></i> <span>شركات التوريد </span>
+              </a>
+            </li>
+
+            <li>
+              <a href="addAdmin.html">
+                <i class="fa-solid fa-gear"></i> <span>الاعدادات</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="Home">
+        <section class="HaderTop">
+          <div class="search">
+            <input type="search" />
+          </div>
+          <div>
+            <i class="fa-solid fa-arrow-right-from-bracket" id="Logout-user"></i>
+          </div>
+        </section>
+
+
+
+
+
+
+        <section class="colorMian pharmaceutical">
+            <h1 class="Titl">الادوية </h1>
+
+
+
+            <div class="taple-pharmaceutical">
+              <table border="2">
+                <thead>
+                  <tr>
+                    <th>اسم الادوية </th>
+                    <th>الكمية</th>
+                    <th>السعر</th>
+                    <th>تاريخ الانتهاء</th>
+                  </tr>
+                </thead>
+                <tbody id="Show_almakhzan">
+                  <tr>
+                    <td>Name</td>
+                    <td>Name</td>
+                    <td>Name</td>
+                    <td>Name</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </section>
+
+    </header>
+
+    
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="js/jquery_3.7.0.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap_5.3.0.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="login/js/main.js"></script>
+    <script type="module" src="js/database.js"></script>
+
+  </body>
+</html>
